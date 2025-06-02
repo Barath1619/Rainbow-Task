@@ -47,7 +47,7 @@ src/
 
 ### End To End Flow Diagram
 
-![Screenshot 2024-09-16 at 8.51.14 PM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/25191181-6ef9-4334-928e-e7440e2bab7f/163a7ddf-2075-49db-b086-3c171c85b980/Screenshot_2024-09-16_at_8.51.14_PM.png)
+![Uploading Screenshot 2024-09-16 at 8.51.14 PM.png…]()
 
 1. **`main.ts` and `app.module.ts`**: These files serve as the **central entry point** of the application. The `main.ts` file is responsible for bootstrapping the NestJS application, while `app.module.ts` is the root module that imports all relevant modules. This also includes the necessary module to initiate cron jobs, which are managed by the `SchedulerService` inside `scheduler.module.ts`.
 2. **`app.module.ts` establishes the database connection with MongoDB Atlas**: Using `MongooseModule.forRoot()`, the application is configured to connect to MongoDB Atlas.
@@ -68,7 +68,8 @@ src/
 
 ### Module Structure:
 
-![Screenshot 2024-09-15 at 9.21.49 PM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/25191181-6ef9-4334-928e-e7440e2bab7f/bd0c1744-a119-4de4-8fdb-a319fa7d1567/Screenshot_2024-09-15_at_9.21.49_PM.png)
+![Uploading Screenshot 2024-09-15 at 9.21.49 PM.png…]()
+
 
 ### Skeleton Code
 
